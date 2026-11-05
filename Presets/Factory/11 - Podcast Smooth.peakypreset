@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PeakyPreset name="Podcast Smooth" version="1">
+  <Param id="threshold" value="-13"/>
+  <Param id="target" value="-13"/>
+  <Param id="smoothing" value="20"/>
+  <Param id="maxgr" value="9"/>
+  <Param id="postgain" value="3"/>
+  <Param id="lookahead" value="1"/>
+  <Param id="lookaheadtime" value="3"/>
+  <Param id="detect" value="0"/>
+  <Param id="mix" value="100"/>
+</PeakyPreset>

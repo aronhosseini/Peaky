@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PeakyPreset name="Subtle Glue" version="1">
+  <Param id="threshold" value="-6"/>
+  <Param id="target" value="-10"/>
+  <Param id="smoothing" value="20"/>
+  <Param id="maxgr" value="3"/>
+  <Param id="postgain" value="0"/>
+  <Param id="lookahead" value="1"/>
+  <Param id="lookaheadtime" value="3"/>
+  <Param id="detect" value="0"/>
+  <Param id="mix" value="100"/>
+</PeakyPreset>

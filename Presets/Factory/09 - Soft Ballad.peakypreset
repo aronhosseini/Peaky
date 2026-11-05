@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PeakyPreset name="Soft Ballad" version="1">
+  <Param id="threshold" value="-11"/>
+  <Param id="target" value="-13"/>
+  <Param id="smoothing" value="30"/>
+  <Param id="maxgr" value="5"/>
+  <Param id="postgain" value="2"/>
+  <Param id="lookahead" value="1"/>
+  <Param id="lookaheadtime" value="4"/>
+  <Param id="detect" value="0"/>
+  <Param id="mix" value="100"/>
+</PeakyPreset>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PeakyPreset name="Natural Smoothing" version="1">
+  <Param id="threshold" value="-10"/>
+  <Param id="target" value="-12"/>
+  <Param id="smoothing" value="15"/>
+  <Param id="maxgr" value="8"/>
+  <Param id="postgain" value="2"/>
+  <Param id="lookahead" value="1"/>
+  <Param id="lookaheadtime" value="2"/>
+  <Param id="detect" value="0"/>
+  <Param id="mix" value="100"/>
+</PeakyPreset>

@@ -1,0 +1,7 @@
+#!/bin/bash
+# Runs after the .pkg installs: strip quarantine so DAWs can load Peaky without a Gatekeeper prompt.
+for p in "/Library/Audio/Plug-Ins/VST3/Peaky.vst3" "/Library/Audio/Plug-Ins/Components/Peaky.component"; do
+  [ -e "$p" ] && /usr/bin/xattr -dr com.apple.quarantine "$p" 2>/dev/null
+done
+/usr/bin/killall -9 AudioComponentRegistrar 2>/dev/null || true
+exit 0
